@@ -56,17 +56,9 @@ Trayanova is featured in the Drumsville exhibit at the New Orleans Jazz Museum, 
 
 <!-- VIDEO -->
 <section class="video fade-in">
-  <h2>Featured Videos</h2>
+  <h2>Video</h2>
 
-  <!-- Playlist -->
-  <iframe 
-    src="https://www.youtube.com/embed/videoseries?list=PLcKHBGSx-thk-A_n2mJkKTNTEBI0aKO1T"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe>
-
-  <!-- Individual Videos -->
+  <!-- Featured Video -->
   <iframe 
     src="https://www.youtube.com/embed/vP4uu_nvAWA"
     frameborder="0"
@@ -74,22 +66,35 @@ Trayanova is featured in the Drumsville exhibit at the New Orleans Jazz Museum, 
     allowfullscreen>
   </iframe>
 
-  <iframe 
-    src="https://www.youtube.com/embed/MAhU6B-OmaA"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe>
+  <!-- Button -->
+  <button id="videoExpandBtn">Explore More Videos</button>
 
-  <iframe 
-    src="https://www.youtube.com/embed/rCPdLSZozOk"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe>
+  <!-- Hidden Videos -->
+  <div id="moreVideos" class="hidden">
 
+    <iframe 
+      src="https://www.youtube.com/embed/videoseries?list=PLcKHBGSx-thk-A_n2mJkKTNTEBI0aKO1T"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+
+    <iframe 
+      src="https://www.youtube.com/embed/MAhU6B-OmaA"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+
+    <iframe 
+      src="https://www.youtube.com/embed/rCPdLSZozOk"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+
+  </div>
 </section>
-
 <!-- CONTACT -->
 <section class="contact fade-in">
   <button id="contactBtn">Contact</button>
