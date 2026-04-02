@@ -87,7 +87,7 @@ body {
   padding: 60px 20px;
 }
 
-/* FIX: stack video + button vertically */
+/* Force vertical stacking */
 .video iframe {
   display: block;
   width: 90%;
@@ -97,9 +97,11 @@ body {
   border-radius: 12px;
 }
 
+/* Ensure button is below */
 #videoExpandBtn {
   display: block;
-  margin: 20px auto 0;
+  margin: 20px auto;
+  text-align: center;
 }
 
 /* BUTTONS */
