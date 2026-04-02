@@ -1,23 +1,38 @@
 // Expand music section
-document.getElementById("expandBtn").onclick = function() {
-  const section = document.getElementById("moreMusic");
-  section.style.display = "block";
-  this.style.display = "none";
-};
-
-// Expand video section
-document.getElementById("videoExpandBtn").onclick = function() {
-  const section = document.getElementById("moreVideos");
-  section.style.display = "block";
-  this.style.display = "none";
-};
+const expandBtn = document.getElementById("expandBtn");
+if (expandBtn) {
+  expandBtn.onclick = function() {
+    const section = document.getElementById("moreMusic");
+    if (section) {
+      section.style.display = "block";
+    }
+    this.style.display = "none";
+  };
+}
 
 // Expand contact form
-document.getElementById("contactBtn").onclick = function() {
-  const form = document.getElementById("contactForm");
-  form.style.display = "block";
-  this.style.display = "none";
-};
+const contactBtn = document.getElementById("contactBtn");
+if (contactBtn) {
+  contactBtn.onclick = function() {
+    const form = document.getElementById("contactForm");
+    if (form) {
+      form.style.display = "block";
+    }
+    this.style.display = "none";
+  };
+}
+
+// Expand video section
+const videoBtn = document.getElementById("videoExpandBtn");
+if (videoBtn) {
+  videoBtn.onclick = function() {
+    const section = document.getElementById("moreVideos");
+    if (section) {
+      section.style.display = "block";
+    }
+    this.style.display = "none";
+  };
+}
 
 // Fade-in on scroll
 const faders = document.querySelectorAll('.fade-in');
