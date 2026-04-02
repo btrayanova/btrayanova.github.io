@@ -5,6 +5,13 @@ document.getElementById("expandBtn").onclick = function() {
   this.style.display = "none";
 };
 
+// Expand video section
+document.getElementById("videoExpandBtn").onclick = function() {
+  const section = document.getElementById("moreVideos");
+  section.style.display = "block";
+  this.style.display = "none";
+};
+
 // Expand contact form
 document.getElementById("contactBtn").onclick = function() {
   const form = document.getElementById("contactForm");
