@@ -116,6 +116,17 @@ button:hover {
   border-radius: 12px;
 }
 
+/* VIDEO LAYOUT FIX */
+.video iframe {
+  display: block;
+  margin: 20px auto;
+}
+
+#videoExpandBtn {
+  display: block;
+  margin: 20px auto 0;
+}
+
 /* CONTACT */
 .contact {
   text-align: center;
