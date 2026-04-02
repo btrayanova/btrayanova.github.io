@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boyanna Trayanova</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="overlay"></div>
+  <div class="hero-text">
+    <h1>Boyanna Trayanova</h1>
+    <p>Musician. Time Smith. Innovator.</p>
+  </div>
+</section>
+
+<!-- BIO -->
+<section class="bio fade-in">
+  <p>
+Drummer and percussionist Boyanna Trayanova has mastered the art of manipulating time with her bare hands, sculpting and shaping intricate grooves with precision and style. Born in Bulgaria and having grown up in New Orleans, LA, Trayanova’s artistic research hones in on the intersection of the two vastly disparate cultures. Known for her stylistic range, Trayanova excels at switching seamlessly between musical genres, able to cover a wide spectrum of soundscapes such as jazz, zydeco, and doom metal, just to name a few. Trayanova has provided the backbeat for hundreds of New Orleans artists, international touring acts, as well as spearheaded various projects of her own. Trayanova is featured in the Drumsville exhibit at the New Orleans Jazz Museum, as well as “The Evolution of the New Orleans Beat”, by Robert Cataliotti (LSU Press 2022).
+  </p>
+</section>
+
+<!-- MUSIC -->
+<section class="music fade-in">
+  <h2>Music</h2>
+
+  <div class="featured">
+    <iframe src="https://open.spotify.com/embed/album/04c0ENv1fYlEJLcpeVeIDS"></iframe>
+    <iframe src="https://open.spotify.com/embed/album/06lvZ4YlyDpUtvQax1E0q3"></iframe>
+  </div>
+
+  <button id="expandBtn">Explore More Music</button>
+
+  <div id="moreMusic" class="hidden">
+    <iframe src="https://open.spotify.com/embed/artist/1a5CEm7536dM4f2XvWnRr6"></iframe>
+    <iframe src="https://open.spotify.com/embed/album/6IZ5mj39WUgjpONrD0kOoz"></iframe>
+    <iframe src="https://open.spotify.com/embed/album/43NnatfdKEcCHAgnGxFaqJ"></iframe>
+    <iframe src="https://open.spotify.com/embed/album/5nVVqjPII9VNuvWlfHT90P"></iframe>
+  </div>
+</section>
+
+<!-- VIDEO -->
+<section class="video fade-in">
+  <h2>Video</h2>
+  <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=boyannatrayanova"></iframe>
+</section>
+
+<!-- CONTACT -->
+<section class="contact fade-in">
+  <button id="contactBtn">Contact</button>
+
+  <div id="contactForm" class="hidden">
+
+    <div class="contact-intro">
+      <p class="contact-title">Need to get in touch?</p>
+      <p class="contact-subtext">
+        Please use the form below to contact for booking inquiries, lessons, or anything else.
+      </p>
+    </div>
+
+    <form action="mailto:btrayanova@gmail.com" method="POST" enctype="text/plain">
+      
+      <input type="text" name="Name" placeholder="Name" required>
+      
+      <input type="email" name="Email" placeholder="Email address" required>
+      
+      <input type="text" name="Subject" placeholder="Subject" required>
+      
+      <textarea name="Message" placeholder="Message" required></textarea>
+      
+      <button type="submit">Submit</button>
+
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© Boyanna Trayanova 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
