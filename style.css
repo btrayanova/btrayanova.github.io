@@ -9,7 +9,7 @@ body {
 /* HERO */
 .hero {
   height: 100vh;
-  background: url('your-photo.jpg') center 35% / cover no-repeat;
+  background: url('your-photo.jpg') center 20% / cover no-repeat;
   position: relative;
 }
 
@@ -37,7 +37,7 @@ body {
   font-size: 1.2em;
 }
 
-/* FADE ANIMATION BASE */
+/* FADE ANIMATION */
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
@@ -81,6 +81,27 @@ body {
   height: 200px;
 }
 
+/* VIDEO */
+.video {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* FIX: stack video + button vertically */
+.video iframe {
+  display: block;
+  width: 90%;
+  max-width: 800px;
+  height: 450px;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+
+#videoExpandBtn {
+  display: block;
+  margin: 20px auto 0;
+}
+
 /* BUTTONS */
 button {
   margin-top: 20px;
@@ -101,30 +122,6 @@ button:hover {
 /* HIDDEN */
 .hidden {
   display: none;
-}
-
-/* VIDEO */
-.video {
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.video iframe {
-  width: 90%;
-  max-width: 800px;
-  height: 450px;
-  border-radius: 12px;
-}
-
-/* VIDEO LAYOUT FIX */
-.video iframe {
-  display: block;
-  margin: 20px auto;
-}
-
-#videoExpandBtn {
-  display: block;
-  margin: 20px auto 0;
 }
 
 /* CONTACT */
@@ -188,4 +185,15 @@ footer {
   padding: 40px;
   font-size: 0.9em;
   color: #aaa;
+}
+
+/* LINK STYLE */
+a {
+  color: #b5b5b5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffffff;
 }
