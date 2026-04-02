@@ -9,7 +9,7 @@ body {
 /* HERO */
 .hero {
   height: 100vh;
-  background: url('your-photo.jpg') center 20% / cover no-repeat;
+  background: url('your-photo.jpg') center 35% / cover no-repeat;
   position: relative;
 }
 
